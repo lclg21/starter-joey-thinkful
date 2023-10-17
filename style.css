@@ -1,0 +1,46 @@
+header {
+    background-color: #0B1C51;
+    color: white;
+}
+
+h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+  }
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    h1 {
+        margin: 14px 0;
+        font-size: 48px;
+        padding-top: 0;
+    }
+
+    nav {
+        margin-top: 14px;
+      }
+}
